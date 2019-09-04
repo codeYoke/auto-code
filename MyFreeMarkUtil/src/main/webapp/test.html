@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自动代码生成</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            //页面加载事件
+            $("#save").click(function () {
+                //获取form表单的数据
+                //表单验证，只做了基本的空表单验证
+                var $inputs =  $("form input[type='text']");
+                console.log($($inputs[0]).val())
+                if($($inputs[0]).val() == ''){
+                    alert('不能为空');
+                    return;
+                }
+                console.log($('form').serialize());//序列化参数
+                //异步提交
+                $.post($('form').attr('action'),$('form').serialize(),function (data) {
+                    console.log(data)
+                    if (data == 'success'){
+                        alert('操作成功')
+                        //转发到其他页面
+                        //清除form数据
+                        $('form').get(0).reset();
+                    }
+                });
+                //回调处理
+            });
+        });
+    </script>
+</head>
+<body>
+<h3>
+    <p>emmet插件 自动代码生成</p>
+</h3>
+<form action="AutoCodeServlet" method="post">
+    <div>
+        主键: <input type="text" name="id" id="id">
+    </div>
+    <div>
+        姓名: <input type="text" name="name" id="name">
+    </div>
+    <div>
+        价格: <input type="text" name="price" id="price">
+    </div>
+    <div>
+        生日: <input type="text" name="birth" id="birth">
+    </div>
+    <div>
+        用户名: <input type="text" name="userName" id="userName">
+    </div>
+    <div>
+        <input type="button" id="save" value="保存">
+    </div>
+</form>
+
+</body>
+</html>
