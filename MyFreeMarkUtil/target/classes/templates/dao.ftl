@@ -8,6 +8,11 @@ import java.sql.PreparedStatement;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+* ClassName:
+* Description:
+* date: ${date?datetime}
+*/
 public class ${daoClassName}{
     Connection conn = null;
     PreparedStatement pstmt = null;

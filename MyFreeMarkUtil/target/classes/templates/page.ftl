@@ -18,7 +18,7 @@
                 console.log($('form').serialize());//序列化参数
                 //异步提交
                 $.post($('form').attr('action'),$('form').serialize()+"&type=save",function (data) {
-                    if (data == 'success'){
+                    if (data == 'write something here!'){
                         alert('操作成功')
                         //转发到其他页面
                         //清除form数据
@@ -34,22 +34,14 @@
 <h3>
     <p>自动代码生成</p>
 </h3>
-<form action="AutoCodeServlet" method="post">
+<form action="${servletClassName}" method="post">
+    <#compress >
+        <#list fields as field>
     <div>
-        主键: <input type="text" name="id" id="id">
+       ${field.remarks}: <input type="text" name="${field.columnName}" id="${field.columnName}">
     </div>
-    <div>
-        姓名: <input type="text" name="name" id="name">
-    </div>
-    <div>
-        价格: <input type="text" name="price" id="price">
-    </div>
-    <div>
-        生日: <input type="text" name="birth" id="birth">
-    </div>
-    <div>
-        用户名: <input type="text" name="userName" id="userName">
-    </div>
+        </#list>
+    </#compress>
     <div>
         <input type="button" id="save" value="保存">
     </div>

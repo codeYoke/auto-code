@@ -32,6 +32,11 @@ public class TestAutoCode {
         GenController genController = new GenController();
         genController.generateServletFile(tableName,servletPackageName,basePath,entitytPackageName,daoPackageName);
 
+        //生成html前台页面
+        String pagePath = "src/main/webapp";
+        GenPage genPage = new GenPage();
+        genPage.generatePageFile(pagePath,tableName,dataBaseName,genEntity.getDataUtil());
+
     }
 }
 

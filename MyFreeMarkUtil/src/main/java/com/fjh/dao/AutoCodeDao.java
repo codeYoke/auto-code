@@ -8,6 +8,11 @@ import java.sql.PreparedStatement;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+* ClassName:
+* Description:
+* date: 2019-9-5 11:49:03
+*/
 public class AutoCodeDao{
     Connection conn = null;
     PreparedStatement pstmt = null;
