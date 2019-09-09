@@ -1,5 +1,8 @@
 package com.fjh.codeAuto;
 
+/**
+ * 数据库字段类型转换枚举类
+ */
 public enum FieldTypeEnum {
     INT{
         public  String getFieldType(){

@@ -8,7 +8,7 @@ import java.util.Map;
 
 /**
  * ClassName: DataUtil
- * Description:数据库元数据转换类
+ * Description:数据库元数据抽取工具类
  * date: 2019/9/3 16:34
  *
  * @author 冯佳豪

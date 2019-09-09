@@ -4,9 +4,9 @@ package com.fjh.entity;
     import java.util.Date;
 
 /**
-* ClassName:
+* ClassName:AutoCode
 * Description:
-* date: 2019-9-5 11:49:02
+* date: 2019-9-9 15:56:26
 */
 public class AutoCode {
 

@@ -1,5 +1,12 @@
 package com.fjh.codeAuto;
 
+/**
+ * ClassName: DataProperties
+ * Description:数据库元数据转换类
+ * date: 2019/9/3 16:34
+ *
+ * @author 冯佳豪
+ */
 public class DataProperties {
 
     private String remarks;

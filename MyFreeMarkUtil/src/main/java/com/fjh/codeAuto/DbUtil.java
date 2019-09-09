@@ -1,6 +1,14 @@
 package com.fjh.codeAuto;
 import java.sql.*;
 
+
+/**
+ * ClassName: DbUtil
+ * Description:数据库连接工具类
+ * date: 2019/9/2 15:05
+ *
+ * @author 冯佳豪
+ */
 public class DbUtil {
 
         static String url = DbConstant.URL;

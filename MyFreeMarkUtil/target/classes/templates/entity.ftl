@@ -7,7 +7,7 @@ package ${entityPackageName};
 </#list>
 
 /**
-* ClassName:
+* ClassName:${entityClassName}
 * Description:
 * date: ${date?datetime}
 */

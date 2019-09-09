@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
-* ClassName:
+* ClassName:${controllerClassName}
 * Description:
 * date: ${date?datetime}
 */
