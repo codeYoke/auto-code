@@ -6,7 +6,7 @@ package com.fjh.entity;
 /**
 * ClassName:AutoCode
 * Description:
-* date: 2019-9-9 15:56:26
+* date: 2019-9-9 19:43:10
 */
 public class AutoCode {
 

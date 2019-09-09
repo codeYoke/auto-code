@@ -13,7 +13,7 @@ import java.util.List;
 /**
 * ClassName:AutoCodeDao
 * Description:
-* date: 2019-9-9 15:56:27
+* date: 2019-9-9 19:43:11
 */
 public class AutoCodeDao{
     Connection conn = null;

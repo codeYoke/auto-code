@@ -26,18 +26,31 @@ import java.util.Map;
 @WebServlet(name = "${controllerClassName}",urlPatterns = "/${controllerClassName}")
 public class ${controllerClassName} extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-    ${entityClassName} ${entityClassName?uncap_first} = ( ${entityClassName}) fillParams( ${entityClassName}.class,request);
-    ${daoClassName} ${daoClassName?uncap_first} = new ${daoClassName}();
+        ${entityClassName} ${entityClassName?uncap_first} = (${entityClassName}) fillParams(${entityClassName}.class,request);
+        ${daoClassName} ${daoClassName?uncap_first} = new ${daoClassName}();
 
-        //调用dao的默认方法 你也可以调用updata，delete...
-    ${daoClassName?uncap_first}.save(${entityClassName?uncap_first});
+        if(request.getParameter("type")=="save"||request.getParameter("type").equals("save")){
+            //插入操作业务...
+            ${daoClassName?uncap_first}.save(${entityClassName?uncap_first});
+        }else if (request.getParameter("type")=="delete"||request.getParameter("type").equals("delete")){
+            //删除操作业务...
+            ${daoClassName?uncap_first}.delete(${entityClassName?uncap_first});
+        }else if (request.getParameter("type")=="update"||request.getParameter("type").equals("update")){
+            //修改操作业务...
+            ${daoClassName?uncap_first}.update(${entityClassName?uncap_first},Integer.parseInt(request.getParameter("id")));   // 默认修改自身id
+        }else if (request.getParameter("type")=="query"||request.getParameter("type").equals("query")){
+            //查询操作业务...
+            ${daoClassName?uncap_first}.queryById(${entityClassName?uncap_first});
+        }else{
+            System.err.println("动作类型不匹配！");
+        }
 
-    response.setContentType("text/html;charset=utf-8");
-    PrintWriter writer = response.getWriter();
-    writer.write("write something here!");
+        response.setContentType("text/html;charset=utf-8");
+        PrintWriter writer = response.getWriter();
+        writer.write("write something here!");
 
-    writer.flush();
-    writer.close();
+        writer.flush();
+        writer.close();
 
     }
 
@@ -112,8 +125,14 @@ public class ${controllerClassName} extends HttpServlet {
                     }
 
                 } catch ( NoSuchFieldException | SecurityException e) {
-                    //属性不存在
-                    e.printStackTrace();
+                    //判断是否是动作属性（客户端传过来用来判断执行动作的type的值）
+                    if(key=="type"||key.equals("type")){
+                        System.out.println("获取动作类型:"+parameterMap.get(key).toString());
+                     }else {
+                        //属性不存在
+                        e.printStackTrace();
+                    }
+
                 } catch (NumberFormatException e) {
                     // 数字转换出错
                     e.printStackTrace();
