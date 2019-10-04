@@ -10,9 +10,10 @@
 
 FreeMarker是一款模板引擎： 一种基于模板和要改变的数据，并用来生成输出文本（HTML网页、电子邮件、配置文件、源代码等）的通用工具。即：输出=模板+数据。简单来说，其用法原理类似String的replace方法，或MessageFormat的format方法，都是在一定的代码中改变（替换）某些内容。不过FreeMarker更加强大，模板来源可以是外部文件或字符串格式，替换的数据格式多样，而且支持逻辑判断，如此替换的内容将更加灵活。
 
-### 项目结构
+### 
 
-**项目主要工具类**
+### 项目主要工具类
+
 ![](https://github.com/codeYoke/my-picture/blob/master/auto-code/17571119626891.png?raw=true)
 
 ### example
@@ -36,7 +37,7 @@ public class TestAutoCode {
 
 ### 核心代码展示
 
-FreeMarker工具类，用来控制模板文件的输出
+**FreeMarker工具类，用来控制模板文件的输出**
 
 ```java
 package com.fjh.controller;
@@ -121,7 +122,7 @@ public class FreeMarkerUtils {
 
 ```
 
-DataProperties数据库类型转化类
+**DataProperties数据库类型转化类**
 
 ```java
 package com.fjh.codeAuto;
@@ -179,7 +180,7 @@ public class DataProperties {
 
 ```
 
-数据库字段类型转java数据类型
+**数据库字段类型转java数据类型**
 
 ```java
 package com.fjh.codeAuto;
@@ -209,7 +210,7 @@ public enum FieldTypeEnum {
 
 ```
 
-从数据库中抽取数据
+**从数据库中抽取数据**
 
 ```java
 package com.fjh.codeAuto;
@@ -303,7 +304,7 @@ public class DataUtil {
 
 ```
 
-生成文件，这里以controller为例，其他类型具体看源文件
+**生成文件，这里以controller为例，其他类型具体看源文件**
 
 ```java
 package com.fjh.codeAuto;
@@ -367,7 +368,7 @@ public class GenController {
 
 ```
 
-模板文件ftl展示,这里单单展示实体类模板文件，具体文件看源代码
+**模板文件ftl展示,这里单单展示实体类模板文件，具体文件看源代码**
 
 ```java
 package ${entityPackageName};
