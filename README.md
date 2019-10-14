@@ -30,14 +30,14 @@ public class TestAutoCode {
         String dataBaseName = "freemarkdemo";//数据库名
         String basePath ="src/main/java/";//基础路径
 
-        //生成entitys类
+        //生成entitys
         String entitytPackageName = "com.fjh.entity";
-        
         GenEntity genEntity = new GenEntity();
         genEntity.genrateEntityFile(tableName,dataBaseName,entitytPackageName,basePath);
-      //生成dao类
-       String daoPackageName = "com.fjh.dao";
- 	  generateFile.generateDaoFile(tableName,daoPackageName,basePath,entitytPackageName);
+      	
+	//生成dao
+       	String daoPackageName = "com.fjh.dao";
+ 	generateFile.generateDaoFile(tableName,daoPackageName,basePath,entitytPackageName);
 	//.....
     }
 ```
