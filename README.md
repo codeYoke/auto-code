@@ -10,7 +10,7 @@
 
 FreeMarker是一款模板引擎： 一种基于模板和要改变的数据，并用来生成输出文本（HTML网页、电子邮件、配置文件、源代码等）的通用工具。即：输出=模板+数据。简单来说，其用法原理类似String的replace方法，或MessageFormat的format方法，都是在一定的代码中改变（替换）某些内容。不过FreeMarker更加强大，模板来源可以是外部文件或字符串格式，替换的数据格式多样，而且支持逻辑判断，如此替换的内容将更加灵活。
 
-### 
+
 
 ### 项目主要工具类
 
@@ -18,7 +18,9 @@ FreeMarker是一款模板引擎： 一种基于模板和要改变的数据，并
 
 ### example
 
-我们生成实体类只要这样做 ，想要生成其他类做法相同。
+#### 方法1：
+
+我们生成entity和dao只要这样做 ，想要生成其他类做法相同。
 
 ```java
 public class TestAutoCode {
@@ -30,10 +32,31 @@ public class TestAutoCode {
 
         //生成entitys类
         String entitytPackageName = "com.fjh.entity";
+        
         GenEntity genEntity = new GenEntity();
         genEntity.genrateEntityFile(tableName,dataBaseName,entitytPackageName,basePath);
+      //生成dao类
+       String daoPackageName = "com.fjh.dao";
+ 	  generateFile.generateDaoFile(tableName,daoPackageName,basePath,entitytPackageName);
+	//.....
     }
 ```
+
+#### 展示结果
+
+![](https://github.com/codeYoke/my-picture/blob/master/auto-code/17001014074918.png)
+
+#### 方法2：
+
+当然你也可以运行web服务，浏览器输入localhost:8080/auto_code,填写表单，这里我们不生成文件，但把代码输出到了页面，方便预览。
+
+![](https://github.com/codeYoke/my-picture/blob/master/auto-code/autocode.png)
+
+#### 展示结果
+
+![](https://github.com/codeYoke/my-picture/blob/master/auto-code/autocode2.png)
+
+![](https://github.com/codeYoke/my-picture/blob/master/auto-code/autocode3.png)
 
 ### 核心代码展示
 
@@ -407,9 +430,7 @@ public class ${entityClassName} {
 }
 ```
 
-### 展示结果
 
-![](https://github.com/codeYoke/my-picture/blob/master/auto-code/17001014074918.png)
 
 ### 最后
 

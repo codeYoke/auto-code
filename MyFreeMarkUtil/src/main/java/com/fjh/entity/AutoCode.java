@@ -1,7 +1,7 @@
 package com.fjh.entity;
-    import java.lang.Integer;
-    import java.lang.Float;
-    import java.util.Date;
+import java.lang.Integer;
+import java.lang.Float;
+import java.util.Date;
 
 /**
 * ClassName:AutoCode

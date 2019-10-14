@@ -7,35 +7,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c128cca8-3e45-48cc-9dba-a88a045a33da" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fjh/dao/AutoCodeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fjh/dao/AutoCodeDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fjh/entity/AutoCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fjh/entity/AutoCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fjh/servlet/AutoCodeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fjh/servlet/AutoCodeServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resouces/templates/page.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resouces/templates/page.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resouces/templates/servlet.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resouces/templates/servlet.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/auto_code.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/auto_code.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/DataProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/DataProperties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/DbUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/DbUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/FieldTypeEnum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/FieldTypeEnum$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/FieldTypeEnum$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/FieldTypeEnum$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/FieldTypeEnum$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/FieldTypeEnum$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/FieldTypeEnum$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/FieldTypeEnum$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/FieldTypeEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/FieldTypeEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/GenController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/GenDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/GenEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/GenPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/TestAutoCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/dao/AutoCodeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/dao/AutoCodeDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/servlet/AutoCodeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/servlet/AutoCodeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/templates/dao.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/templates/dao.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/templates/entity.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/templates/entity.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/templates/servlet.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/templates/servlet.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/auto_code.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/FreeMarkUtil/auto_code.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fjh/dao/AutoCodeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fjh/dao/AutoCodeDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fjh/dao/TestDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fjh/dao/TestDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fjh/servlet/AutoCodeServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fjh/servlet/AutoCodeServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/servlet.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/servlet.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/META-INF/FreeMarkUtil.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/META-INF/MyFreeMarkerUtil.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/DataProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/DataUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/DbConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/DbUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/FieldTypeEnum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/FieldTypeEnum$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/FieldTypeEnum$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/FieldTypeEnum$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/FieldTypeEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/GenerateFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/codeAuto/TestAuto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/controller/FreeMarkerUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/dao/AutoCodeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/dao/TestDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/entity/AutoCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/com/fjh/servlet/AutoCodeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/templates/dao.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/templates/entity.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/templates/page.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/classes/templates/servlet.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/lib/freemarker-2.3.29.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/lib/javax.servlet-api-4.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/lib/mysql-connector-java-5.1.48.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/auto_code.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/FreeMarkUtil/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/FreeMarkUtil.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,10 +57,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/dao/AutoCodeDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-662">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/dao/TestDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/TestAuto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="29" column="91" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="29" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/GenerateFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="62" column="6" lean-forward="true" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+            <state relative-caret-position="-190">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#genrateEntityFile#0;class#GenerateFile#0" />
@@ -67,55 +106,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/TestAuto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/dao/AutoCodeDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2337">
-              <caret line="149" column="17" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resouces/templates/dao.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1672">
-              <caret line="172" column="58" selection-start-line="172" selection-start-column="58" selection-end-line="172" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/entity/AutoCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resouces/templates/entity.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="323">
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/auto_code.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="76" column="21" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="21" />
+            <state relative-caret-position="209">
+              <caret line="68" column="34" lean-forward="true" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#5;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -124,35 +127,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/servlet/AutoCodeServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1672">
-              <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-              <folding>
-                <element signature="e#3740#3748#0" expanded="true" />
-                <element signature="e#4381#4389#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resouces/templates/servlet.ftl">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/DbUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/DbConstant.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resouces/templates/page.ftl">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="118" column="10" lean-forward="true" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#p#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -201,18 +206,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/DataProperties.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/DataUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/DbConstant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fjh/entity/AutoCode.java" />
         <option value="$PROJECT_DIR$/src/main/resouces/templates/dao.java" />
         <option value="$PROJECT_DIR$/src/main/resouces/templates/dao.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/fjh/dao/CourseDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fjh/dao/testDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/TestAuto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/fjh/dao/AutoCodeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/fjh/dao/TestDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/auto_code.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/fjh/servlet/AutoCodeServlet.java" />
         <option value="$PROJECT_DIR$/src/main/resouces/templates/servlet.ftl" />
         <option value="$PROJECT_DIR$/src/main/resouces/templates/page.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fjh/entity/AutoCode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fjh/dao/AutoCodeDao.java" />
       </list>
     </option>
   </component>
@@ -237,6 +242,22 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FreeMarkUtil Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FreeMarkUtil Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-7" />
     <option name="width" value="697" />
@@ -247,6 +268,7 @@
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <flattenPackages Scope="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -348,7 +370,89 @@
               <item name="FreeMarkUtil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MyFreeMarkUtil" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="FreeMarkUtil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fjh" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MyFreeMarkUtil" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="FreeMarkUtil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fjh" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="codeAuto" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MyFreeMarkUtil" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="FreeMarkUtil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fjh" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="controller" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MyFreeMarkUtil" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="FreeMarkUtil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fjh" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="dao" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MyFreeMarkUtil" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="FreeMarkUtil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fjh" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="entity" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MyFreeMarkUtil" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="FreeMarkUtil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fjh" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="servlet" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MyFreeMarkUtil" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="FreeMarkUtil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="resouces" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MyFreeMarkUtil" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="FreeMarkUtil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resouces" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="templates" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="MyFreeMarkUtil" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="FreeMarkUtil" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="webapp" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -371,8 +475,8 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
@@ -494,8 +598,8 @@
       <item itemvalue="Application.testDao" />
       <item itemvalue="Application.TestAuto" />
       <item itemvalue="Application.testDao (1)" />
-      <item itemvalue="Tomcat Server.Tomact8.5.43" />
       <item itemvalue="Application.TestDao" />
+      <item itemvalue="Tomcat Server.Tomact8.5.43" />
     </list>
     <recent_temporary>
       <list>
@@ -512,15 +616,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49813432" visible="true" weight="0.2375189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49813432" visible="true" weight="0.2632375" />
       <window_info id="Structure" order="1" sideWeight="0.5018657" side_tool="true" weight="0.18910742" />
       <window_info id="Web" order="2" sideWeight="0.5018657" side_tool="true" weight="0.18910742" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.47868854" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23442623" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23442623" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -536,7 +641,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
   </component>
@@ -601,13 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Java/jdk1.8.0_121/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28886">
@@ -627,50 +725,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/GetMetaData.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/testTemplate/AutoCodeDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/testTemplate/HelloServlet.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/testTemplate/testDao.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/entity/Course.java" />
     <entry file="file://$PROJECT_DIR$/src/main/javacom/fjh/entity/AutoCode.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webappauto_code.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/GenEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/GenDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/GenController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/GenPage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/TestAutoCode.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/dao/CourseDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/course.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resouces/templates/page.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resouces/templates/dao.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="172" column="58" selection-start-line="172" selection-start-column="58" selection-end-line="172" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resouces/templates/servlet.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1919">
+          <caret line="122" column="36" selection-start-line="122" selection-start-column="36" selection-end-line="122" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/servlet/AutoCodeServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3740#3748#0" expanded="true" />
+            <element signature="e#4381#4389#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/controller/FreeMarkerUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state relative-caret-position="513">
+          <caret line="36" column="24" selection-end-line="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/GenEntity.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/GenDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/GenController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/GenPage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/TestAutoCode.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/DbUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/DataUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="1425">
+          <caret line="79" column="18" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="18" />
           <folding>
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#1319#1320#0" expanded="true" />
-            <element signature="e#1396#1397#0" expanded="true" />
-            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/DataUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/entity/AutoCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="380">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -687,7 +813,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/FieldTypeEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="25" />
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/DbUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -698,27 +831,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/dao/CourseDao.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1406">
-          <caret line="67" column="37" lean-forward="true" selection-start-line="67" selection-start-column="37" selection-end-line="67" selection-end-column="37" />
+        <state relative-caret-position="304">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resouces/templates/entity.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/auto_code.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="68" column="34" lean-forward="true" selection-start-line="68" selection-start-column="34" selection-end-line="68" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#5;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/dao/AutoCodeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-662">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/course.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-684" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/dao/TestDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="380">
           <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -726,48 +882,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/entity/AutoCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resouces/templates/entity.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resouces/templates/page.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="118" column="10" lean-forward="true" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resouces/templates/dao.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="172" column="58" selection-start-line="172" selection-start-column="58" selection-end-line="172" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resouces/templates/servlet.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/GenerateFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="62" column="6" lean-forward="true" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+        <state relative-caret-position="-190">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#genrateEntityFile#0;class#GenerateFile#0" />
@@ -780,36 +898,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/codeAuto/TestAuto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="18" column="55" lean-forward="true" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/dao/AutoCodeDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2337">
-          <caret line="149" column="17" selection-start-line="149" selection-start-column="17" selection-end-line="149" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/fjh/servlet/AutoCodeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1672">
-          <caret line="42" column="44" lean-forward="true" selection-start-line="42" selection-start-column="44" selection-end-line="42" selection-end-column="44" />
-          <folding>
-            <element signature="e#3740#3748#0" expanded="true" />
-            <element signature="e#4381#4389#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/auto_code.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="76" column="21" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#5;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="29" column="91" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="29" selection-end-column="91" />
         </state>
       </provider>
     </entry>
@@ -819,10 +909,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>FreeMarkUtil:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -830,6 +922,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -864,6 +957,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>FreeMarkUtil</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -875,6 +969,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
